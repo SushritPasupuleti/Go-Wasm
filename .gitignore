@@ -19,3 +19,7 @@
 
 # Go workspace file
 go.work
+.do_tasks
+main
+dist/main.wasm
+dist/wasm_exec.js
