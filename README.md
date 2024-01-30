@@ -2,6 +2,19 @@
 
 Working with Go Wasm to run Go code on the browser.
 
+## Environment Setup
+
+For `NixOS` users, run:
+
+```bash
+nix-shell ./shell.nix
+```
+
+For the rest, install the following:
+
+- [Go](https://golang.org/doc/install)
+- Optionally: [binaryen](https://github.com/WebAssembly/binaryen) for `wasm-opt`
+
 ## Running
 
 First prepare `wasm_exec.js` by running:
